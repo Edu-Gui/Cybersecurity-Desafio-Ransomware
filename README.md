@@ -29,12 +29,16 @@ touch encrypt.py
 touch decrypt.py
 
 <img width="636" height="402" alt="estrutura" src="https://github.com/user-attachments/assets/808ed181-175a-4e56-a93f-904e4d62dc0a" />
+
+
+
 ✏️ Implementação
 🔒 Script de Criptografia – encrypt.py
 
 Abra o arquivo:
 
 nano encrypt.py
+
 
 <img width="1305" height="698" alt="encrypt" src="https://github.com/user-attachments/assets/60bbb3af-516d-425c-924d-ce547a69fd0e" />
 
@@ -52,9 +56,11 @@ Insira o código de descriptografia correspondente.
 
 
 ▶️ Testando o Funcionamento
-🔐 Executar a Criptografia
-python encrypt.py
 
+
+🔐 Executar a Criptografia
+
+python encrypt.py
 
 O arquivo original será removido e substituído por sua versão criptografada.
 
