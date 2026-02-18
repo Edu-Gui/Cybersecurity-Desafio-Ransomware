@@ -2,14 +2,6 @@
 
 Simulação educacional de criptografia de arquivos em Python para fins de aprendizado em Cibersegurança.
 
-⚠️ Aviso Legal
-
-Este projeto foi desenvolvido exclusivamente para fins educacionais.
-Seu objetivo é demonstrar, de forma controlada, como funciona a criptografia simétrica e a lógica básica utilizada por ransomwares.
-
-🚫 Não utilize este conhecimento para fins maliciosos.
-O uso indevido pode configurar crime.
-
 📌 Visão Geral
 
 Este laboratório prático demonstra:
@@ -23,25 +15,6 @@ Exclusão e recriação de arquivos
 Processo de criptografia e descriptografia controlado
 
 Importância de backups e boas práticas de segurança
-
-🛠️ Tecnologias Utilizadas
-
-Python 3.x
-
-Biblioteca pyaes
-
-Ambiente Linux / WSL / Git Bash
-
-📦 Instalação de Dependências
-
-Antes de executar o projeto, instale a biblioteca necessária:
-
-pip install pyaes
-
-
-Ou, caso utilize Python 3:
-
-pip3 install pyaes
 
 🚀 Guia de Execução
 1️⃣ Criar a pasta do projeto
@@ -77,6 +50,7 @@ nano decrypt.py
 
 Insira o código de descriptografia correspondente.
 
+
 ▶️ Testando o Funcionamento
 🔐 Executar a Criptografia
 python encrypt.py
@@ -85,6 +59,7 @@ python encrypt.py
 O arquivo original será removido e substituído por sua versão criptografada.
 
 🔓 Executar a Descriptografia
+
 python decrypt.py
 
 
